@@ -12,8 +12,8 @@ class Song
     @@all
   end
   
-  def artist_name
-    # binding.pry
-    artist.name if artist #did not know this existed
-  end
+  # def artist_name
+  #   # binding.pry
+  #   artist.name if artist #did not know this existed
+  # end
 end
