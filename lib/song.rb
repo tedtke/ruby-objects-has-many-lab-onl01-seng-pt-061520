@@ -16,4 +16,13 @@ class Song
   #   # binding.pry
   #   artist.name if artist #did not know this existed
   # end
+  
+   
+  def artist_name=(name)
+    if (self.artist.nil?)
+      self.artist = Artist.new(name)
+    else
+      self.artist.name = name
+    end
+  end
 end
